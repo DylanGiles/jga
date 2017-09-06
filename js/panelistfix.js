@@ -1,0 +1,1 @@
+$('content-pane-list-item').text('-&nbsp;&nbsp;&nbsp;' + $('content-pane-list-item').text);

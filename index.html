@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JGA</title>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,200i,400,400i,500,700,700i" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://dylangiles.github.io/jga-api/bootstrap/css/bootstrap.min.css"/>
-    <link href="lib/jquery-ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link href="https://dylangiles.github.io/jga-api/jquery/jquery-ui.min.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="fonts/Raleway/stylesheet.css" />
-    <link href="fa/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
 
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
@@ -24,62 +22,32 @@
     <link rel="stylesheet" type="text/css" href="page/about/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="page/contact/css/styles.css" />
 
-
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                        aria-expanded="false">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                            </button>
-                    <a class="navbar-brand" href="#">John Giles Associates</a>
-                </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
+    <div class="header">
+        <div class="container">
+            <img class="page-logo" src="img/favicon.png">
+        </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="menu-pane col-xs-3 col-sm-3 col-offset-sm-1 col-md-3 col-offset-md-1 col-lg-3 col-offset-lg-1">
+                <ul class="menu-pane-list">
+                    <li id="portfolioLink" class="menu-pane-link active-link">Portfolio</li>
+                    <li class="menu-pane-link">About</li>
+                    <li class="menu-pane-link">Contact</li>
+                </ul>
+            </div>
+
+            <div class="content-pane col-xs-9 col-sm-8 col-md-8 col-lg-8">
+            
+            </div>
+        </div>
+    </div>
+        
 </body>
 <script src="https://dylangiles.github.io/jga-api/jquery/jquery.min.js"></script>
 <script src="https://dylangiles.github.io/jga-api/jquery/jquery-ui.min.js"></script>
@@ -87,7 +55,7 @@
 
 <!-- Bootstrap JS -->
 <script src="https://dylangiles.github.io/jga-api/bootstrap/js/bootstrap.min.js"></script>
-<script src="js/menulinks.js"></script>
+<script src="js/menuhandler.js"></script>
+
 
 </html>
-
